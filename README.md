@@ -7,9 +7,9 @@ So if you have any suggestions how to improve this example, code in it, etc let 
 # This is how it looks
 ![Turret rotation example](http://i.imgur.com/AShf7Xf.gif)
 
-[And in the game I'm working on right now](https://forums.tigsource.com/index.php?topic=60000)
-![Turret rotation ingame](http://i.imgur.com/APfeAOR.gif)
+
 
 Let's help each other! =D
 
+[It's used in game I'm working on right now](https://forums.tigsource.com/index.php?topic=60000)
 [Twitter](https://twitter.com/Andrew_Chewie)
