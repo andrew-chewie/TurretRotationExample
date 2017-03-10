@@ -1,5 +1,5 @@
 # Turret rotation example
-I've seen a lot of topics and questions regarding local rotation of the turret attached to some base object rotated in space, so I've made this small example that shows how to apply rotation over time to 2 parts turret with limited agle for each axis (Vertical & Horizontal).
+I've seen a lot of topics and questions regarding local rotation of the turret attached to some base object rotated in space, so I've made this small example that shows how to apply rotation over time to 2 parts turret with limited angle for each axis if needed (Vertical & Horizontal).
 
 I'm not a pro coder or anything, just trying to help eveyone else strugling with the same problems I've encoutered.
 So if you have any suggestions how to improve this example, code in it, etc let me know.
