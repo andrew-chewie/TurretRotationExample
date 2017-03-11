@@ -42,11 +42,11 @@ public class Turret : MonoBehaviour
         //Clamp rotation if needed
         float y = RotationH.eulerAngles.y;
 
-        if (RotationH.eulerAngles.y > 180f && 360f - RotationH.eulerAngles.y > HorizontalClamp.x)
+        if (y > 180f && 360f - y > HorizontalClamp.x)
         {
             y = 360f - HorizontalClamp.x;
         }
-        else if (RotationH.eulerAngles.y < 180f && RotationH.eulerAngles.y > HorizontalClamp.y)
+        else if (y < 180f && y > HorizontalClamp.y)
         {
             y = HorizontalClamp.y;
         }
@@ -68,11 +68,11 @@ public class Turret : MonoBehaviour
         //Clamp if needed
         float x = RotationV.eulerAngles.x;
 
-        if (RotationV.eulerAngles.x > 180f && 360f - RotationV.eulerAngles.x > VerticalCalmp.y)
+        if (x > 180f && 360f - x > VerticalCalmp.y)
         {
             x = 360f - VerticalCalmp.y;
         }
-        else if (RotationV.eulerAngles.x < 180f && RotationV.eulerAngles.x > VerticalCalmp.x)
+        else if (x < 180f && x > VerticalCalmp.x)
         {
             x = VerticalCalmp.x;
         }
